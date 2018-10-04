@@ -132,6 +132,6 @@ Important thing now is all those packages are linked together so changing someth
 ### TODO
 - jest for all packages
 - changelog generation? - https://github.com/lerna/lerna-changelog
-- learning publish packages to npm script?
+- learna publish packages to npm script?
 
 
