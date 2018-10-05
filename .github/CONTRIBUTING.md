@@ -6,12 +6,11 @@ The following is a set of guidelines for contributing to Deity Falcon. Please fo
 
 ## Code of Conduct
 
-By participating in this project, you and everyone else is expected to uphold to our Code of Conduct. Please report unacceptable behaviour to info@deity.io
+By participating in this project, you and everyone else is expected to uphold our Code of Conduct. Please report the unacceptable behavior to info@deity.io
 
-## If you just have a question
+## If you have a question
 
-Please don't file an issue to ask a question. You'll get faster results by using the resources below
-
+Please don't file an issue to ask a question. You'll get faster results by using the resources below.
 
 Official chat
 
@@ -33,13 +32,13 @@ Under minor issues we understand:
 - Small formatting fixes
 - Adding/clearing non-trivial commented code
 
-It is not necessary to create an issue for these, please create a pull request directly.
+It is not necessary to create an issue for these; please create a pull request directly.
 
 ## Reporting Bugs
 
-Before reporting please check if someone else has not already reported the same bug.
+Before reporting, please check if someone else has not already reported the same bug.
 
-Please include the following in the report
+Please include the following in the report.
 
 - Steps to reproduce
 - Expected and actual result
@@ -71,10 +70,10 @@ Based on https://conventionalcommits.org/
 - `build:` - a commit that with changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
 - `ci:` - a commit that with changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
 - `docs:` - a commit that with changes documentation only changes
-- `perf:` - a commit with changes that improves performance
-- `refactor:` - a commit with changes that neither are fixes a bug nor adds a feature
-- `style:` - a commit with that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-- `test:` - a commit with adding missing tests or correcting existing tests
+- `perf:` - a commit with changes that improve performance
+- `refactor:` - a commit with changes that neither fixes a bug nor adds a feature
+- `style:` - a commit with that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.)
+- `test:` - a commit to add missing tests or correcting existing tests
 
 #### Examples
 

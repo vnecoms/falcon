@@ -48,9 +48,9 @@ Use the project generator:
 
 [Create-falcon-app](https://github.com/deity-io/falcon/tree/master/packages/create-falcon-app)
 
-Out of the box it will connect to a public back-end service (Magento & WordPress), so you are able to start developing right away.
+Out of the box, it connects to a public back-end service (Magento & WordPress), so you can start developing right away.
 
-### Connecting to your own services
+### Connecting to your services
 
 #### Magento
 
@@ -96,7 +96,7 @@ Coming soon
 
 ## Development quick start
 
-Yarn and Node are required for core development
+Yarn and Node are required for core development.
 
 #### Adding new dependency for single package
 
@@ -109,7 +109,7 @@ yarn add dependency-name
 
 There are 2 main scripts available - `test` and `test:coverage`:
 
-- `test` in the root package.json file - triggers `test:coverage` script in every available package (it will be used by the CI system mainly)
+- `test` in the root package.json file - triggers `test:coverage` script in every available package (it is used by the CI system mainly)
 - `test` in the module's package.json - runs Jest testing in "watch" mode (re-runs tests on every code change)
 - `test:coverage` in the module's package.json runs Jest testing with enabled Coverage option
 
@@ -118,17 +118,6 @@ cd package-name
 yarn test
 yarn test:coverage
 ```
-
-#### Example how to add @deity/falcon-client dependency into examples/shop-with-blog
-
-package version needs to be specified as it's not yet published to npm registry
-
-```
-cd examples/shop-with-blog
-yarn add @deity/falcon-client@1.0.0
-```
-
-Important thing now is all those packages are linked together so changing something in `@deity/falcon-client` will be automatically reflected in `shop-with-blog` example
 
 ### TODO
 - jest for all packages
