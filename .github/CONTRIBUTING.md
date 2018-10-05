@@ -71,7 +71,7 @@ Based on https://conventionalcommits.org/
 - `ci:` - a commit that with changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
 - `docs:` - a commit that with changes documentation only changes
 - `perf:` - a commit with changes that improve performance
-- `refactor:` - a commit with changes that neither are fixes, a bug or adds a feature
+- `refactor:` - a commit with changes that neither fixes a bug nor adds a feature
 - `style:` - a commit with that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.)
 - `test:` - a commit to add missing tests or correcting existing tests
 
