@@ -11,10 +11,10 @@
     "prepare": "node scripts/prepublish.js"
   },
   "dependencies": {
-    "chalk": "^2.4.1",
-    "commander": "^2.18.0",
-    "fs-extra": "^7.0.0",
-    "execa": "^1.0.0",
-    "listr": "^0.14.2"
+    "chalk": "2.4.1",
+    "commander": "2.18.0",
+    "fs-extra": "7.0.0",
+    "execa": "1.0.0",
+    "listr": "0.14.2"
   }
 }
