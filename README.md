@@ -119,17 +119,6 @@ yarn test
 yarn test:coverage
 ```
 
-#### Example how to add @deity/falcon-client dependency into examples/shop-with-blog
-
-package version needs to be specified as it's not published to npm registry yet.
-
-```
-cd examples/shop-with-blog
-yarn add @deity/falcon-client@1.0.0
-```
-
-Important thing now is all those packages are linked together so changing something in `@deity/falcon-client` is automatically reflected in the `shop-with-blog` example.
-
 ### TODO
 - jest for all packages
 - changelog generation? - https://github.com/lerna/lerna-changelog
