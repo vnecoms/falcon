@@ -39,7 +39,7 @@ httpServer.listen(process.env.PORT || 3000, error => {
     Logger.error(error);
   }
 
-  Logger.log('🚀  started');
+  Logger.log(`🚀  Client ready at http://localhost:${process.env.PORT}`);
   server.started();
 });
 
