@@ -40,7 +40,7 @@ NodeJS (8.x +) https://nodejs.org
 Yarn (Optional, but recommended) https://yarnpkg.com
 
 
-Yarn can be installed via `npm install -g yarn` or https://yarnpkg.com/lang/en/docs/install
+To install Yarn, see https://yarnpkg.com/lang/en/docs/install
 
 ## Starting a project
 
