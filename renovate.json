@@ -4,5 +4,6 @@
   "timezone": "Europe/Amsterdam",
   "schedule": ["after 6pm and before 8am on every weekday"],
   "semanticCommits": true,
-  "prCreation": "not-pending"
+  "prCreation": "not-pending",
+  "prConcurrentLimit": 3
 }
