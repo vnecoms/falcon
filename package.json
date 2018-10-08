@@ -16,7 +16,7 @@
     "@deity/eslint-config-falcon": "0.0.1",
     "eslint": "4.19.1",
     "eslint-plugin-prettier": "2.7.0",
-    "husky": "0.14.3",
+    "husky": "1.1.1",
     "identity-obj-proxy": "3.0.0",
     "jest": "23.6.0",
     "jest-extended": "0.11.0",
