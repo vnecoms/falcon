@@ -71,7 +71,7 @@ You can also use `npx create-falcon-app -h` (or `yarn create falcon-app -h`) to 
 
 ### Using your backend services
 
-By default `shop-with-blog` example uses demo Magento 2 and WordPress servers provided by DEITY so you can check how DEITY Falcon works. If you cannot start the server part (from server folder) or you see any problems with server behavior please contact us via our [community slack channel](https://slack.deity.io). 
+By default `shop-with-blog` example uses demo Magento 2 and WordPress servers provided by DEITY so you can check how DEITY Falcon works. If you cannot start the server part (from server folder) or you see any problems with server behavior please contact us via our [community slack channel](http://slack.deity.io). 
 
 If you want to connect the generated app to your own Magento 2 backend you will need to install [Falcon Magento2 module](https://github.com/deity-io/falcon-magento2-module) which delivers REST endpoints required by DEITY Falcon and change configuration file (placed in `server/config/default.json`) to point the application to the correct url.
 
